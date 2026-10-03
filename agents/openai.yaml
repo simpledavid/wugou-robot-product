@@ -1,4 +1,4 @@
 interface:
-  display_name: "吴钩（WeiZ-01）产品与临床支持助手"
-  short_description: "为销售、临床支持和医生提供吴钩产品问答，按全膝、全髋、单髁核对资料"
+  display_name: "吴钩 / Wugou（WeiZ-01）产品与临床支持助手"
+  short_description: "吴钩产品问答与培训资料 | Wugou product Q&A and training"
   default_prompt: "请使用 $wugou-robot-product，依据吴钩产品资料回答我的问题，核对型号与术式，并注明来源。"

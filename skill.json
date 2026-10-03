@@ -1,8 +1,8 @@
 {
   "name": "wugou-robot-product",
-  "display_name": "吴钩（WeiZ-01）产品与临床支持助手",
-  "description": "查询吴钩骨科机器人产品信息、特点、参数、全膝流程与联系方式，支持销售、临床支持和医生问答及培训材料整理。当前资料查询使用包内产品文件；演示、培训和报修执行以实际接入工具为准。",
-  "version": "0.3.0",
+  "display_name": "吴钩 / Wugou（WeiZ-01）产品与临床支持助手",
+  "description": "吴钩产品咨询、销售介绍与医生产品培训资料查询。Wugou orthopaedic robot product Q&A, sales introductions and physician product training materials from bundled sources. Verify model and procedure scope; no business submission tools are configured.",
+  "version": "0.3.1",
   "category": "产品咨询与临床支持",
   "keywords": [
     "吴钩",
@@ -15,6 +15,11 @@
     "产品咨询",
     "临床支持",
     "产品培训",
-    "WeiZ-01"
+    "WeiZ-01",
+    "orthopaedic robot",
+    "orthopedic robot",
+    "TKA",
+    "THA",
+    "UKA"
   ]
 }

@@ -1,8 +1,14 @@
 # 吴钩骨科机器人 Skill
 
+中文 | [English](README.en.md)
+
 这是一个 AI Skill。安装后，你的 AI 助手可以查询吴钩的产品特点、系统组成、技术参数、全膝流程和联系方式，也可以帮助整理销售介绍、医生 FAQ 与产品培训内容。
 
 让销售、临床支持和医生通过自己的 AI 助手了解产品。
+
+**English description:** An AI skill for Wugou orthopaedic robot product questions, sales introductions and physician product training materials, based on bundled sources. Model and TKA, THA and UKA scope are checked separately.
+
+支持中文和英文提问与回答；英文安装说明和使用示例见 [English README](README.en.md)。
 
 [复制安装指令](#安装) · [查看可提问内容](#这个-skill-能做什么) · [查看原宣传册](assets/三折页411.pdf)
 
@@ -103,7 +109,7 @@ $wugou-robot-product 用一分钟给医生介绍吴钩
 
 ## 版本
 
-当前技能版本：**0.3.0**，以 [skill.json](skill.json) 为准。产品型号 WeiZ-01、软硬件版本与技能版本分别记录。
+当前技能版本：**0.3.1**，以 [skill.json](skill.json) 为准。产品型号 WeiZ-01、软硬件版本与技能版本分别记录。
 
 当前资料核对日期为 2026-10-03；宣传册没有标明正式版次。历史资料不代表当前注册或服务状态。
 
