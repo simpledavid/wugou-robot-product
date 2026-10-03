@@ -2,7 +2,7 @@
 name: wugou-robot-product
 description: 吴钩（WeiZ-01）产品咨询、销售介绍与医生产品培训资料查询，分别核对全膝、全髋、单髁。Wugou orthopaedic robot product Q&A, sales introductions and physician product training from bundled sources; verify model and TKA, THA and UKA scope.
 metadata:
-  version: "0.3.1"
+  version: "0.3.2"
   keywords:
     - 吴钩
     - WeiZ-01

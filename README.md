@@ -105,11 +105,21 @@ $wugou-robot-product 用一分钟给医生介绍吴钩
 - GitHub：[simpledavid/wugou-robot-product](https://github.com/simpledavid/wugou-robot-product)
 - 同时提供本地 Skill 文件夹与 ZIP 安装包。
 
-宣传册二维码可指向本仓库。用户扫码查看安装说明，把安装链接复制给自己的 AI 助手，再完成安装。二维码本身不会自动安装 Skill。
+## 宣传册二维码
+
+<img src="assets/wugou-skill-qr.png" alt="吴钩产品 Skill 安装入口二维码" width="240">
+
+[下载 PNG 图片](assets/wugou-skill-qr.png) · [下载 SVG 矢量图](assets/wugou-skill-qr.svg)
+
+两个文件是同一二维码的不同格式，都指向本仓库。用户扫码查看安装说明，把安装链接复制给自己的 AI 助手，再完成安装。二维码本身不会自动安装 Skill。
+
+宣传册配文建议：**扫码获取吴钩产品 Skill** / **Scan to get the Wugou Product Skill**。
+
+印刷排版优先使用 SVG；保留白色边距、等比缩放，完成排版后用实际手机扫码检查。
 
 ## 版本
 
-当前技能版本：**0.3.1**，以 [skill.json](skill.json) 为准。产品型号 WeiZ-01、软硬件版本与技能版本分别记录。
+当前技能版本：**0.3.2**，以 [skill.json](skill.json) 为准。产品型号 WeiZ-01、软硬件版本与技能版本分别记录。
 
 当前资料核对日期为 2026-10-03；宣传册没有标明正式版次。历史资料不代表当前注册或服务状态。
 

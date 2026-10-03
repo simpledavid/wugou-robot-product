@@ -119,15 +119,23 @@ These examples illustrate wording and source scope. Actual answers must be check
 - GitHub: [simpledavid/wugou-robot-product](https://github.com/simpledavid/wugou-robot-product)
 - A local skill folder and ZIP package are also provided.
 
-A brochure QR code can point to this repository. Scan it to read the instructions, then copy the installation instruction into your own AI assistant. Scanning the QR code does not automatically install the skill.
+## Brochure QR code
+
+<img src="assets/wugou-skill-qr.png" alt="QR code for the Wugou Product Skill installation page" width="240">
+
+[Download PNG image](assets/wugou-skill-qr.png) · [Download SVG vector](assets/wugou-skill-qr.svg)
+
+These are two formats of the same QR code, both pointing to this repository. Scan it to read the instructions, then copy the installation instruction into your own AI assistant. Scanning the QR code does not automatically install the skill.
 
 Suggested brochure caption:
 
 > Scan to get the Wugou Product Skill
 
+Use the SVG for print layout. Preserve the white border and aspect ratio, and test the finished layout by scanning it with a phone.
+
 ## Version
 
-Current skill version: **0.3.1**, recorded in [skill.json](skill.json). The skill version, product model WeiZ-01, and hardware or software versions are separate identifiers.
+Current skill version: **0.3.2**, recorded in [skill.json](skill.json). The skill version, product model WeiZ-01, and hardware or software versions are separate identifiers.
 
 The materials were checked on 2026-10-03. The brochure does not state a formal revision. Historical documents do not establish current registration or service status.
 
