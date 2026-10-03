@@ -2,7 +2,7 @@
   "name": "wugou-robot-product",
   "display_name": "吴钩 / Wugou（WeiZ-01）产品与临床支持助手",
   "description": "吴钩产品咨询、销售介绍与医生产品培训资料查询。Wugou orthopaedic robot product Q&A, sales introductions and physician product training materials from bundled sources. Verify model and procedure scope; no business submission tools are configured.",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "category": "产品咨询与临床支持",
   "keywords": [
     "吴钩",

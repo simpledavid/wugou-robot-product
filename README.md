@@ -2,17 +2,47 @@
 
 中文 | [English](README.en.md)
 
-这是一个 AI Skill。安装后，你的 AI 助手可以查询吴钩的产品特点、系统组成、技术参数、全膝流程和联系方式，也可以帮助整理销售介绍、医生 FAQ 与产品培训内容。
+把吴钩产品资料安装到自己的 AI 助手，用于产品问答、销售介绍和医生产品培训内容整理，支持中文和英文。
 
-让销售、临床支持和医生通过自己的 AI 助手了解产品。
+## 安装
 
-**English description:** An AI skill for Wugou orthopaedic robot product questions, sales introductions and physician product training materials, based on bundled sources. Model and TKA, THA and UKA scope are checked separately.
+**用 Codex 安装：打开电脑上的 Codex，新建一个对话，把下面整段复制并发送。**
 
-支持中文和英文提问与回答；英文安装说明和使用示例见 [English README](README.en.md)。
+```text
+$skill-installer 请从 https://github.com/simpledavid/wugou-robot-product 安装吴钩产品 Skill。
+SKILL.md 在仓库根目录，安装名称为 wugou-robot-product。
+```
 
-[复制安装指令](#安装) · [查看可提问内容](#这个-skill-能做什么) · [查看原宣传册](assets/三折页411.pdf)
+**等助手确认安装完成，再发送第一次提问：**
+
+```text
+$wugou-robot-product 用一分钟给医生介绍吴钩。
+```
+
+如果安装后没有识别到技能，重启 Codex 再试。[Codex 官方安装说明](https://learn.chatgpt.com/docs/build-skills#install-curated-skills-for-local-use)
+
+手机扫码打开的是本仓库的安装说明；可以把上面的指令复制或发送到电脑，再在 Codex 中完成安装和提问。
+
+<details>
+<summary>其他支持 Skill 的 AI 助手，或手动安装</summary>
+
+如果你的 AI 助手支持从仓库下载并安装 Skill，可以发送：
+
+```text
+安装 https://github.com/simpledavid/wugou-robot-product
+```
+
+也可以[下载 ZIP](https://github.com/simpledavid/wugou-robot-product/archive/refs/heads/main.zip)，解压后将包含 `SKILL.md` 的完整文件夹，按所用平台的技能导入或安装方式添加。助手需要能读取包内 Markdown 和 PDF 资料。
+
+不同软件的安装入口可能不同。普通聊天窗口只粘贴链接，不代表已经完成 Skill 安装。安装后可问：“用一分钟给医生介绍吴钩。”
+
+</details>
+
+[查看可提问内容](#这个-skill-能做什么) · [获取二维码](#宣传册二维码) · [查看原宣传册](assets/三折页411.pdf)
 
 ## 关于吴钩
+
+**English description:** An AI skill for Wugou orthopaedic robot product questions, sales introductions and physician product training materials, based on bundled sources. Model and TKA, THA and UKA scope are checked separately.
 
 | 项目 | 内容 |
 | --- | --- |
@@ -60,34 +90,6 @@
 
 使用能够读取 Skill 和本地 Markdown、PDF 资料的 AI 助手。当前产品资料保存在安装包内。
 
-## 安装
-
-把下面这句话复制给支持下载仓库并安装 Skill 的 AI 助手：
-
-```text
-安装 https://github.com/simpledavid/wugou-robot-product
-```
-
-助手下载仓库后，按所在平台的规则安装技能，读取 `SKILL.md` 与包内产品资料。普通聊天窗口粘贴链接并不等于安装成功。
-
-也可以手动下载仓库或 ZIP 安装包，解压后把整个技能文件夹交给助手，并说：
-
-> 请从这个文件夹安装吴钩骨科机器人 Skill。
-
-安装后直接问：
-
-- “用一分钟给医生介绍吴钩。”
-- “全膝的五步流程是什么？”
-- “宣传册里的 ±0.5 mm 具体指什么？”
-
-在支持 `$` 调用的 Codex 中，也可以明确调用：
-
-```text
-$wugou-robot-product 用一分钟给医生介绍吴钩
-```
-
-首次使用时，助手会检查资料是否可读，并说明可以问哪些问题。你已提出具体问题时，它应直接回答。
-
 这是一份供 AI 助手安装的技能与资料包，无需公司另行提供在线聊天或模型服务。
 
 ## 关于吴钩资料服务
@@ -119,7 +121,7 @@ $wugou-robot-product 用一分钟给医生介绍吴钩
 
 ## 版本
 
-当前技能版本：**0.3.2**，以 [skill.json](skill.json) 为准。产品型号 WeiZ-01、软硬件版本与技能版本分别记录。
+当前技能版本：**0.3.3**，以 [skill.json](skill.json) 为准。产品型号 WeiZ-01、软硬件版本与技能版本分别记录。
 
 当前资料核对日期为 2026-10-03；宣传册没有标明正式版次。历史资料不代表当前注册或服务状态。
 

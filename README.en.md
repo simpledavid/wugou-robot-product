@@ -2,11 +2,43 @@
 
 [中文](README.md) | English
 
-An AI skill for product questions about Wugou (吴钩) from Beijing Weigao Technology. It helps sales teams, clinical support staff and physicians find product information and prepare introductions, FAQs and product training materials from the bundled sources.
+Install Wugou product materials in your own AI assistant for product questions, sales introductions and physician product training content. Supports Chinese and English.
 
-Use it in your own AI assistant.
+## Installation
 
-[Installation](#installation) · [What you can ask](#what-this-skill-can-do) · [Original brochure](assets/三折页411.pdf)
+**In Codex: open the desktop app, start a conversation, then copy and send the entire instruction below.**
+
+```text
+$skill-installer Please install the Wugou Product Skill from https://github.com/simpledavid/wugou-robot-product.
+SKILL.md is at the repository root. Use wugou-robot-product as the installation name.
+```
+
+**Wait for confirmation that installation has completed, then send your first question:**
+
+```text
+$wugou-robot-product Give a one-minute introduction to Wugou for a physician.
+```
+
+If the skill is not detected after installation, restart Codex and try again. [Official Codex installation guide](https://learn.chatgpt.com/docs/build-skills#install-curated-skills-for-local-use)
+
+Scanning the QR code on a phone opens this installation page. Copy or send the instruction to your computer, then complete installation and ask your question in Codex.
+
+<details>
+<summary>Other assistants that support skills, or manual installation</summary>
+
+If your AI assistant supports downloading and installing skills from a repository, send:
+
+```text
+Install https://github.com/simpledavid/wugou-robot-product
+```
+
+Alternatively, [download the ZIP](https://github.com/simpledavid/wugou-robot-product/archive/refs/heads/main.zip), extract it, and add the complete folder containing `SKILL.md` through your platform's skill import or installation process. The assistant must be able to read the bundled Markdown and PDF files.
+
+Installation steps vary by platform. Pasting a link into an ordinary chat window does not establish that a skill has been installed. After installation, ask: “Give a one-minute introduction to Wugou for a physician.”
+
+</details>
+
+[What you can ask](#what-this-skill-can-do) · [Get the QR code](#brochure-qr-code) · [Original brochure](assets/三折页411.pdf)
 
 ## About Wugou
 
@@ -58,34 +90,6 @@ To use the skill:
 
 Use an AI assistant that supports skills and can read the bundled Markdown and PDF files. The current product information is included in the package.
 
-## Installation
-
-Copy this instruction into an AI assistant that can download repositories and install skills:
-
-```text
-Install https://github.com/simpledavid/wugou-robot-product
-```
-
-The assistant should download the repository, install the skill according to its platform's rules, and read SKILL.md and the bundled product materials. Pasting a URL into an ordinary chat window does not by itself install a skill.
-
-You can also download the repository or ZIP package manually, extract it, and give the entire skill folder to your assistant:
-
-> Please install the Wugou Orthopaedic Robot Skill from this folder.
-
-After installation, ask:
-
-- “Give a one-minute introduction to Wugou for a physician.”
-- “What are the five stages in the TKA workflow?”
-- “What does the brochure's ±0.5 mm claim refer to?”
-
-In Codex interfaces that support explicit skill mentions:
-
-```text
-$wugou-robot-product Give a one-minute introduction to Wugou for a physician.
-```
-
-On first use, the assistant checks whether the materials can be read and explains what you can ask. If you have already asked a question, it should answer that question directly.
-
 This skill runs in the user's AI assistant. The company does not need to operate a separate online chatbot or model service for this distribution method.
 
 ## English response examples
@@ -135,7 +139,7 @@ Use the SVG for print layout. Preserve the white border and aspect ratio, and te
 
 ## Version
 
-Current skill version: **0.3.2**, recorded in [skill.json](skill.json). The skill version, product model WeiZ-01, and hardware or software versions are separate identifiers.
+Current skill version: **0.3.3**, recorded in [skill.json](skill.json). The skill version, product model WeiZ-01, and hardware or software versions are separate identifiers.
 
 The materials were checked on 2026-10-03. The brochure does not state a formal revision. Historical documents do not establish current registration or service status.
 
