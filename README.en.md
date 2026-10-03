@@ -6,37 +6,13 @@ Install Wugou product materials in your own AI assistant for product questions, 
 
 ## Installation
 
-**In Codex: open the desktop app, start a conversation, then copy and send the entire instruction below.**
-
-```text
-$skill-installer Please install the Wugou Product Skill from https://github.com/simpledavid/wugou-robot-product.
-SKILL.md is at the repository root. Use wugou-robot-product as the installation name.
-```
-
-**Wait for confirmation that installation has completed, then send your first question:**
-
-```text
-$wugou-robot-product Give a one-minute introduction to Wugou for a physician.
-```
-
-If the skill is not detected after installation, restart Codex and try again. [Official Codex installation guide](https://learn.chatgpt.com/docs/build-skills#install-curated-skills-for-local-use)
-
-Scanning the QR code on a phone opens this installation page. Copy or send the instruction to your computer, then complete installation and ask your question in Codex.
-
-<details>
-<summary>Other assistants that support skills, or manual installation</summary>
-
-If your AI assistant supports downloading and installing skills from a repository, send:
+Copy and send this instruction to an AI assistant that supports skills:
 
 ```text
 Install https://github.com/simpledavid/wugou-robot-product
 ```
 
-Alternatively, [download the ZIP](https://github.com/simpledavid/wugou-robot-product/archive/refs/heads/main.zip), extract it, and add the complete folder containing `SKILL.md` through your platform's skill import or installation process. The assistant must be able to read the bundled Markdown and PDF files.
-
-Installation steps vary by platform. Pasting a link into an ordinary chat window does not establish that a skill has been installed. After installation, ask: “Give a one-minute introduction to Wugou for a physician.”
-
-</details>
+The agent will clone the repository and install it in the appropriate skills directory.
 
 [What you can ask](#what-this-skill-can-do) · [Get the QR code](#brochure-qr-code) · [Original brochure](assets/三折页411.pdf)
 
@@ -139,7 +115,7 @@ Use the SVG for print layout. Preserve the white border and aspect ratio, and te
 
 ## Version
 
-Current skill version: **0.3.3**, recorded in [skill.json](skill.json). The skill version, product model WeiZ-01, and hardware or software versions are separate identifiers.
+Current skill version: **0.3.4**, recorded in [skill.json](skill.json). The skill version, product model WeiZ-01, and hardware or software versions are separate identifiers.
 
 The materials were checked on 2026-10-03. The brochure does not state a formal revision. Historical documents do not establish current registration or service status.
 

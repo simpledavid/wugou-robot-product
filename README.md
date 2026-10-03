@@ -6,37 +6,13 @@
 
 ## 安装
 
-**用 Codex 安装：打开电脑上的 Codex，新建一个对话，把下面整段复制并发送。**
-
-```text
-$skill-installer 请从 https://github.com/simpledavid/wugou-robot-product 安装吴钩产品 Skill。
-SKILL.md 在仓库根目录，安装名称为 wugou-robot-product。
-```
-
-**等助手确认安装完成，再发送第一次提问：**
-
-```text
-$wugou-robot-product 用一分钟给医生介绍吴钩。
-```
-
-如果安装后没有识别到技能，重启 Codex 再试。[Codex 官方安装说明](https://learn.chatgpt.com/docs/build-skills#install-curated-skills-for-local-use)
-
-手机扫码打开的是本仓库的安装说明；可以把上面的指令复制或发送到电脑，再在 Codex 中完成安装和提问。
-
-<details>
-<summary>其他支持 Skill 的 AI 助手，或手动安装</summary>
-
-如果你的 AI 助手支持从仓库下载并安装 Skill，可以发送：
+直接拷贝下面这句话发给支持 Skill 的 AI 助手：
 
 ```text
 安装 https://github.com/simpledavid/wugou-robot-product
 ```
 
-也可以[下载 ZIP](https://github.com/simpledavid/wugou-robot-product/archive/refs/heads/main.zip)，解压后将包含 `SKILL.md` 的完整文件夹，按所用平台的技能导入或安装方式添加。助手需要能读取包内 Markdown 和 PDF 资料。
-
-不同软件的安装入口可能不同。普通聊天窗口只粘贴链接，不代表已经完成 Skill 安装。安装后可问：“用一分钟给医生介绍吴钩。”
-
-</details>
+Agent 会自动克隆仓库并安装到对应的 Skill 目录。
 
 [查看可提问内容](#这个-skill-能做什么) · [获取二维码](#宣传册二维码) · [查看原宣传册](assets/三折页411.pdf)
 
@@ -121,7 +97,7 @@ $wugou-robot-product 用一分钟给医生介绍吴钩。
 
 ## 版本
 
-当前技能版本：**0.3.3**，以 [skill.json](skill.json) 为准。产品型号 WeiZ-01、软硬件版本与技能版本分别记录。
+当前技能版本：**0.3.4**，以 [skill.json](skill.json) 为准。产品型号 WeiZ-01、软硬件版本与技能版本分别记录。
 
 当前资料核对日期为 2026-10-03；宣传册没有标明正式版次。历史资料不代表当前注册或服务状态。
 
